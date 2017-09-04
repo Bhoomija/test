@@ -2,3 +2,6 @@
 ### and stores it in the dataframe ConsumerDB
 
 ConsumerDB = read.csv("consumerdataframe.csv")
+
+summary(ConsumerDB)
+colnames(ConsumerDB)
